@@ -10,11 +10,5 @@ The Ramani Blog is a visionary project designed to shine a spotlight on the rema
     $ npm run dev
 
 ## Contribution Guidelines
-
-Contributors are encouraged to follow these guidelines when contributing:
-
-- Fork the repository on GitHub.
-- Create a feature branch for your contribution.
-- Follow the coding style and commit message conventions outlined in the project's [CONTRIBUTING.md](http://contributing.md/) file.
-- Write clear and comprehensive documentation for any new features or changes.
-- Submit a pull request for review, ensuring your code passes all tests.
+- Please read contribution guidelines before contributing to this project
+- Follow the guidelines outlined in this project's [CONTRIBUTING.md](/CONTRIBUTING.md) file.
