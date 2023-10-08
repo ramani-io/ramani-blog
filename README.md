@@ -7,12 +7,7 @@ The Ramani Blog is a visionary project designed to shine a spotlight on the rema
     $ git clone https://github.com/ramani-io/ramani-blog.git
     $ cd ramani-blog
     $ npm install
-    $ npm start
-
-### Running tests
-
-`npm run test`
-
+    $ npm run dev
 
 ## Contribution Guidelines
 
