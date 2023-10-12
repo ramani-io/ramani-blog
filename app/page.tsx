@@ -1,6 +1,7 @@
 "use client";
 import ArticleCard from "./components/ArticleCard";
 import Searchbar from "./components/Searchbar";
+import { ARTICLE_LIST } from "./models/mockData";
 
 export default function Home() {
   return (
@@ -12,12 +13,9 @@ export default function Home() {
         </div>
       </nav>
       <section className=" w-full grid md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 py-6">
-        <ArticleCard />
-        <ArticleCard />
-        <ArticleCard />
-        <ArticleCard />
-        <ArticleCard />
-        <ArticleCard />
+        {ARTICLE_LIST.map((article, idx) => (
+          <ArticleCard key={idx} article={article}/>
+        ))}
       </section>
     </div>
   );
