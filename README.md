@@ -15,3 +15,7 @@ The Ramani Blog is a visionary project designed to shine a spotlight on the rema
 ## Contribution Guidelines
 - Please read contribution guidelines before contributing to this project
 - Follow the guidelines outlined in this project's [CONTRIBUTING.md](/CONTRIBUTING.md) file.
+
+# Discussion
+There is a Slack workspace for discussion about this project.
+Use this [link](https://join.slack.com/t/ramanixhacktoberfest/shared_invite/zt-24l21gt3r-QuyMqqyXB3gE4Lkm4LhiCA) to join the workspace
