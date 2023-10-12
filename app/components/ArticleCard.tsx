@@ -13,9 +13,9 @@ export default function ArticleCard() {
         />
       </CardBody>
       <CardFooter className="pb-0 pt-2 px-4 flex-col items-start">
-        <p className="text-tiny uppercase font-bold">Daily Mix</p>
-        <small className="text-default-500">12 Tracks</small>
-        <h4 className="font-bold text-large">Frontend Radio</h4>
+        <p className="text-tiny uppercase font-bold">Daniel E. Bwere --- 2023/10/12</p>
+        <small className="text-default-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga debitis aut possimus aperiam. Ipsam nobis nostrum, animi non sapiente, architecto amet id veniam voluptate eaque laboriosam impedit placeat eum tempore.</small>
+        <h4 className="font-bold text-large">Crafting an authentic budget</h4>
       </CardFooter>
     </Card>
   );

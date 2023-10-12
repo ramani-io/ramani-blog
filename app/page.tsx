@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import ArticleCard from "./components/ArticleCard";
 import Searchbar from "./components/Searchbar";
 
@@ -11,12 +11,13 @@ export default function Home() {
           <Searchbar />
         </div>
       </nav>
-      <section className=" w-full grid grid-cols-2 gap-4 p-4">
-          <ArticleCard/>
-         <ArticleCard/>
-         <ArticleCard/>
-         <ArticleCard/>
-         <ArticleCard/>
+      <section className=" w-full grid md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 py-6">
+        <ArticleCard />
+        <ArticleCard />
+        <ArticleCard />
+        <ArticleCard />
+        <ArticleCard />
+        <ArticleCard />
       </section>
     </div>
   );
