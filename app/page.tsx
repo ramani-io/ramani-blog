@@ -12,21 +12,11 @@ export default function Home() {
         </div>
       </nav>
       <section className=" w-full grid grid-cols-2 gap-4 p-4">
-        <div className="w-1/2">
           <ArticleCard/>
-        </div>
-        <div className="w-1/2">
          <ArticleCard/>
-        </div>
-        <div className="w-1/2">
          <ArticleCard/>
-        </div>
-        <div className="w-1/2">
          <ArticleCard/>
-        </div>
-        <div className="w-1/2">
          <ArticleCard/>
-        </div>
       </section>
     </div>
   );
