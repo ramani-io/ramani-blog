@@ -11,9 +11,15 @@ export default function Home() {
           <Searchbar />
         </div>
       </nav>
-      <section className=" w-full grid grid-cols-2 gap-4 px-4 py-4">
+      <section className=" w-full grid grid-cols-2 gap-4 p-4">
         <div className="w-1/2">
           <ArticleCard/>
+        </div>
+        <div className="w-1/2">
+         <ArticleCard/>
+        </div>
+        <div className="w-1/2">
+         <ArticleCard/>
         </div>
         <div className="w-1/2">
          <ArticleCard/>
