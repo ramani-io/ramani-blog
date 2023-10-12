@@ -4,7 +4,8 @@ The Ramani Blog is a visionary project designed to shine a spotlight on the rema
 
 ## Tech Stack Used
 - [React](https://react.dev/)
-- [Next.js](https://nextjs.org/) 
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 ## To install and run project locally
 
     $ git clone https://github.com/ramani-io/ramani-blog.git
