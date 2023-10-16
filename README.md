@@ -13,6 +13,12 @@ The Ramani Blog is a visionary project designed to shine a spotlight on the rema
     $ npm install
     $ npm run dev
 
+## Resources
+
+- [React JS Official Documentation](https://react.dev/learn)
+- [NextJS Official Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Official Documentation](https://tailwindcss.com/docs/installation)
+
 ## Contribution Guidelines
 - Please read contribution guidelines before contributing to this project
 - Follow the guidelines outlined in this project's [CONTRIBUTING.md](/CONTRIBUTING.md) file.
