@@ -22,7 +22,7 @@ The Ramani Blog is a visionary project designed to shine a spotlight on the rema
 
 - [React JS Official Documentation](https://react.dev/learn)
 - [React JS - React Tutorial for Beginners](https://www.youtube.com/watch?v=SqcY0GlETPk)
-- [React JS Full Course 2023](https://www.youtube.com/watch?v=SqcY0GlETPk)
+- [React JS Full Course 2023](https://www.youtube.com/watch?v=b9eMGE7QtTk&t=1s)
 
 ### Next.js
 
