@@ -2,7 +2,7 @@
 
 # Welcome to Ramani Blog !
 
-Perhaps you are new in contributing to open source , or have some little knowledge. Worry not , we will tale you step by step to ensure that you can contribute to **Ramani Blog** Project.
+Perhaps you are new in contributing to open source , or have some little knowledge. Worry not , we will take you step by step to ensure that you can contribute to **Ramani Blog** Project.
 
 ## How to get started .
 
