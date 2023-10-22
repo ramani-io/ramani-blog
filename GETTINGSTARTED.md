@@ -68,3 +68,17 @@ Then create a new branch to start making changes
 ```bash 
  git checkout -b <branch-name>
  ```
+
+ Now , you have already made changes , What's next ?
+
+ ```bash 
+ git add .
+ ```
+
+ ```bash 
+ git commit -m "commit message"
+ ```
+
+ ```bash
+ git push origin <branch-name>
+ ```
