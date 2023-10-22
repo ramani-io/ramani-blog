@@ -1,3 +1,7 @@
+## Hi there 👋🏽 !
+
+Welcome to Ramani Blog 🥳 .
+
 # Ramani Blog
 
 At Ramani, we believe that every member of our team possesses the soul of an author and the wisdom of a thought leader.
@@ -11,10 +15,7 @@ The Ramani Blog is a visionary project designed to shine a spotlight on the rema
 
 ## To install and run project locally
 
-    git clone https://github.com/ramani-io/ramani-blog.git
-    cd ramani-blog
-    npm install
-    npm run dev
+- [How to get started](GETTINGSTARTED.md) 
 
 ## Learning Resources
 
