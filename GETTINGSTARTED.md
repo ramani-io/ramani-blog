@@ -11,21 +11,21 @@ Perhaps you are new in contributing to open source , or have some little knowled
 After getting to the original Ramani Blog Repository , you will have to look for the forking button , that will be on you right top and click it. But also to verify that you are on the original ramani blog repository , have to check on the top left.
 
 _Refer to the diagrams below_
-![](images/step-1.png)
+![](images/Step-1.png)
 
-![](images/step-1-o-2.png)
+![](images/Step-1-o-2.png)
 
-![](images/step-1-o-3.png)
+![](images/Step-1-o-3.png)
 
-![](images/step-1-o-4.png)
+![](images/Step-1-o-4.png)
 
-![](images/step-1-o-5.png)
+![](images/Step-1-o-5.png)
 
-![](images/step-1-o-6.png)
+![](images/Step-1-o-6.png)
 
-![](images/step-1-o-7.png)
+![](images/Step-1-o-7.png)
 
-![](images/step-2-o-1.png)
+![](images/Step-2-o-1.png)
 
 2. **Step 2: Cloning your forked ramani blog repository into your machine**
 
@@ -42,27 +42,27 @@ After successful forking the ramani repository, you have clone the repository.
 **NB:** _The Tutorial was prepared on a LINUX OS_
 
 Hence , will open the linux terminal ``` Ctrl + Alt + T ``` then :
-- ``` bash
+```bash
  git --version 
  ```
-- ```bash
+```bash
 git clone <the copied url>
 ```
-- ```bash 
+```bash 
 cd ramani-blog
 ```
-- ```bash 
+```bash 
 code . 
 ```
-- ```bash
+```bash
  npm install
   ```
-- ```bash 
+```bash 
 npm run dev 
 ```
 
 Then create a new branch to start making changes
 
-- ```bash 
+```bash 
  git checkout -b <branch-name>
  ```
