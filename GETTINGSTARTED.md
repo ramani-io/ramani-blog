@@ -11,9 +11,10 @@ Perhaps you are new in contributing to open source , or have some little knowled
 After getting to the original Ramani Blog Repository , you will have to look for the forking button , that will be on you right top and click it. But also to verify that you are on the original ramani blog repository , have to check on the top left.
 
 _Refer to the diagrams below_
-![](images/Step-1.png)
 
-![](images/Step-1-o-2.png)
+![](images/step-1.png)
+
+![](images/step-1-o-2.png)
 
 ![](images/Step-1-o-3.png)
 
@@ -26,6 +27,7 @@ _Refer to the diagrams below_
 ![](images/Step-1-o-7.png)
 
 ![](images/Step-2-o-1.png)
+
 
 2. **Step 2: Cloning your forked ramani blog repository into your machine**
 
