@@ -10,7 +10,6 @@ function Navigation() {
 
   const handleSearchChange = (e: ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(e.target.value);
-
   };
 
   return (
@@ -25,26 +24,55 @@ function Navigation() {
         </div>
       </div>
       {/* harmburger icon */}
-      {/* @todo: smooth transition to an X icon and display to the menu , not in the design , just a nice to have */}
       <div className="flex flex-row gap-4 px-28 mt-[40px]">
-        <div className="flex flex-col justify-center items-center relative space-y-[2px] w-[25px] h-[25px] cursor-pointer  " onClick={() => setOpen((prev) => !prev)}>
-         <span className=" absolute h-0.5 p-0.5 w-8  bg-green-500 top-0 rounded-lg"></span>
-          <span className=" absolute h-0.5 p-0.5 w-8  bg-green-500 top-2 rounded-lg"></span>
-          <span className=" absolute h-0.5 p-0.5 w-8  bg-green-500 bottom-0 rounded-lg"></span>
+        <div
+          className="flex flex-col justify-center items-center relative space-y-[2px] w-[25px] h-[25px] cursor-pointer rounded-full  "
+          onClick={() => setOpen((prev) => !prev)}
+        >
+          <span
+            className={
+              isOpen
+                ? " absolute h-0.5 p-[1.5px] w-8  bg-green-500 top-0.5 rounded-lg rotate-45"
+                : " absolute h-0.5 p-[1.5px] w-8  bg-green-500 top-0 rounded-lg "
+            }
+          ></span>
+          <span
+            className={
+              isOpen
+                ? " absolute h-0.5 p-[1.5px] w-8  bg-green-500 top-2 rounded-lg hidden"
+                : " absolute h-0.5 p-[1.5px] w-8  bg-green-500 top-2 rounded-lg "
+            }
+          ></span>
+          <span
+            className={
+              isOpen
+                ? " absolute h-0.5 p-[1.5px] w-8  bg-green-500 top-0 rounded-lg -rotate-45"
+                : " absolute h-0.5 p-[1.5px] w-8  bg-green-500 bottom-0 rounded-lg "
+            }
+          ></span>
         </div>
         <div className="h-[20px]">
           <h2 className="text-green-500 font-medium text-lg">All Categories</h2>
         </div>
       </div>
+      {/* className={isOpen ? " absolute h-0.5 p-0.5 w-8  bg-green-500 top-0 rounded-lg rotate-45" :" absolute h-0.5 p-0.5 w-8  bg-green-500 top-0 rounded-lg "} */}
       {/* dropdown menu , triggered by clicking the harmburger icon */}
-      
-      <div className={isOpen ? "block" : "hidden" }>
-      <div className="h-[12em]  w-[12.2em] bg-white relative mx-[6.8em] px-[2px] z-10 grid grid-rows-4 p-4 ">
-        <div className="border border-2 border-b-neutral w-48 h-10 p-2 cursor-pointer">Credit & Finance</div>
-        <div className="border border-2 border-b-neutral w-48 h-10 p-2 cursor-pointer">Engineering</div>
-        <div className="border border-2 border-b-neutral w-48 h-10 p-2 cursor-pointer">Product & Design</div>
-        <div className="border border-2 border-b-neutral w-48 h-10 p-2 cursor-pointer">Customer Success</div>
-      </div>
+
+      <div className={isOpen ? "block" : "hidden"}>
+        <div className="h-[12em]  w-[12.2em] bg-white relative mx-[6.8em] px-[2px] z-10 grid grid-rows-4 p-4 ">
+          <div className="border border-2 border-b-neutral w-48 h-10 p-2 cursor-pointer">
+            Credit & Finance
+          </div>
+          <div className="border border-2 border-b-neutral w-48 h-10 p-2 cursor-pointer">
+            Engineering
+          </div>
+          <div className="border border-2 border-b-neutral w-48 h-10 p-2 cursor-pointer">
+            Product & Design
+          </div>
+          <div className="border border-2 border-b-neutral w-48 h-10 p-2 cursor-pointer">
+            Customer Success
+          </div>
+        </div>
       </div>
     </div>
   );
