@@ -25,7 +25,7 @@ function Navigation() {
         </div>
       </div>
       {/* harmburger icon */}
-      @todo: smooth transition to an X icon and display to the menu , not in the design , just a nice to have
+      {/* @todo: smooth transition to an X icon and display to the menu , not in the design , just a nice to have */}
       <div className="flex flex-row gap-4 px-28 mt-[40px]">
         <div className="flex flex-col justify-center items-center relative space-y-[2px] w-[25px] h-[25px] cursor-pointer  " onClick={() => setOpen((prev) => !prev)}>
          <span className=" absolute h-0.5 p-0.5 w-8  bg-green-500 top-0 rounded-lg"></span>
