@@ -1,0 +1,10 @@
+# User-agent directives
+# allow googlebot to crawl
+User-agent: Googlebot
+Allow: /
+
+# Crawl-delay directive (optional)
+# Crawl-delay: 10
+
+# Sitemap directive
+Sitemap: https://www.example.com/sitemap.xml
